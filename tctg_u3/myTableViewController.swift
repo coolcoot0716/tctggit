@@ -27,7 +27,7 @@ class myTableViewController: UITableViewController {
     @IBOutlet weak var wxinfo: UILabel!
     
     @IBOutlet weak var mydp: UILabel!
-    //微信退出
+    //微信退出控制
     @IBAction func wxlogout(sender: AnyObject) {
       WechatManager.sharedInstance.logout()
     }
