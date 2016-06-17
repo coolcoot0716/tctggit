@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FbspViewController: UIViewController {
+class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
     @IBOutlet weak var spimage1: UIImageView!
     
@@ -16,14 +16,34 @@ class FbspViewController: UIViewController {
     @IBOutlet weak var spimage2: UIImageView!
     
     @IBOutlet weak var spimage3: UIImageView!
+    
+    var spimage:UIImage = UIImage()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        spimage1.userInteractionEnabled = true
+        spimage2.userInteractionEnabled = true
+        spimage3.userInteractionEnabled = true
+        
+        let tapGR1 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
+        let tapGR2 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
+
+        let tapGR3 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
+
+        spimage1.addGestureRecognizer(tapGR1)
+        spimage2.addGestureRecognizer(tapGR2)
+        spimage3.addGestureRecognizer(tapGR3)
+
+        
         // Do any additional setup after loading the view.
+      
+    
     }
     //////手势处理函数
     func tapHandler(sender:UITapGestureRecognizer) {
         ///////todo....
+        uploadimage(sender)
     }
     
     override func didReceiveMemoryWarning() {
@@ -48,6 +68,48 @@ class FbspViewController: UIViewController {
 
     }
  
+    
+    @IBAction func uploadimage(sender: AnyObject) {
+        
+        print(sender.view.tag)
+        //上传图片
+        //判断设置是否支持图片库
+        if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary){
+            //初始化图片控制器
+            let picker = UIImagePickerController()
+            //设置代理
+            picker.delegate = self
+            //指定图片控制器类型
+            picker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+            //设置是否允许编辑
+            picker.allowsEditing = false
+            //弹出控制器，显示界面
+            self.presentViewController(picker, animated: true, completion: {
+                () -> Void in
+               
+                         })
+        }else{
+            print("读取相册错误")
+        }
+        
+            }
+    
+    //选择图片成功后代理
+    func imagePickerController(picker: UIImagePickerController,
+                               didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        //查看info对象
+       print(picker)
+        //获取选择的原图
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        spimage = image
+        //图片控制器退出
+        picker.dismissViewControllerAnimated(true, completion: {
+            () -> Void in
+            
+            
+        })
+    }
     
 
 
