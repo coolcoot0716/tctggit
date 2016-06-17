@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.4.0)
+  - SwiftyJSON (2.3.2)
+  - WechatKit (0.1.1):
+    - Alamofire (~> 3.0)
+
+DEPENDENCIES:
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - WechatKit
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  WechatKit: 6e1f55c79ea745631192db5a8c21974744b4b8d5
+
+PODFILE CHECKSUM: 270fc72f141bc5070017722a82194e569509e74f
+
+COCOAPODS: 1.0.0
