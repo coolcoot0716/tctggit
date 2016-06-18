@@ -446,16 +446,16 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="9Vl-2e-2nz">
                                                 <rect key="frame" x="0.0" y="123" width="580" height="192"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" tag="801" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h9l-Ls-sNu">
+                                                    <imageView userInteractionEnabled="NO" tag="801" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h9l-Ls-sNu">
                                                         <rect key="frame" x="0.0" y="0.0" width="192" height="192"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="h9l-Ls-sNu" secondAttribute="height" multiplier="1:1" id="Jsl-3h-TW8"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" tag="802" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jJ6-EN-ZSP">
+                                                    <imageView userInteractionEnabled="NO" tag="802" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jJ6-EN-ZSP">
                                                         <rect key="frame" x="194" y="0.0" width="192" height="192"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" tag="803" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dZd-aF-bNo">
+                                                    <imageView userInteractionEnabled="NO" tag="803" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dZd-aF-bNo">
                                                         <rect key="frame" x="388" y="0.0" width="192" height="192"/>
                                                     </imageView>
                                                 </subviews>
@@ -470,7 +470,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" verticalCompressionResistancePriority="748" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i36-Rj-th3">
                                                 <rect key="frame" x="0.0" y="340" width="580" height="232"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="p0a-p0-F17">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="p0a-p0-F17">
                                                         <rect key="frame" x="0.0" y="0.0" width="580" height="232"/>
                                                     </imageView>
                                                 </subviews>

@@ -17,7 +17,7 @@ class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     
     @IBOutlet weak var spimage3: UIImageView!
     
-    var spimage:UIImage = UIImage()
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,11 +30,12 @@ class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINav
         let tapGR2 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
 
         let tapGR3 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
+        let tapGR4 = UITapGestureRecognizer(target: self, action: #selector(FbspViewController.tapHandler(_:)))
 
         spimage1.addGestureRecognizer(tapGR1)
         spimage2.addGestureRecognizer(tapGR2)
         spimage3.addGestureRecognizer(tapGR3)
-
+ spimage4.addGestureRecognizer(tapGR4)
         
         // Do any additional setup after loading the view.
       
@@ -71,7 +72,7 @@ class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     
     @IBAction func uploadimage(sender: AnyObject) {
         
-        print(sender.view.tag)
+        //print(sender.view.tag)
         //上传图片
         //判断设置是否支持图片库
         if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary){
@@ -81,6 +82,8 @@ class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINav
             picker.delegate = self
             //指定图片控制器类型
             picker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+            //指定tag
+            picker.view.tag = sender.view.tag
             //设置是否允许编辑
             picker.allowsEditing = false
             //弹出控制器，显示界面
@@ -98,11 +101,22 @@ class FbspViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     func imagePickerController(picker: UIImagePickerController,
                                didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         //查看info对象
-       print(picker)
-        //获取选择的原图
+          //获取选择的原图
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         
-        spimage = image
+        switch picker.view.tag {
+        case 801:
+            spimage1.image = image
+        case 802:
+            spimage2.image = image
+        case 803:
+            spimage3.image = image
+        case 901:
+            spimage4.image = image
+        default:
+            break
+        }
+       
         //图片控制器退出
         picker.dismissViewControllerAnimated(true, completion: {
             () -> Void in
