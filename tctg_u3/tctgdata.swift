@@ -25,6 +25,8 @@ class tctgdata{
     func getdata(dataResultBlock:DataResultBlock){
         
         let query = AVQuery(className: SPtablename)
+        query.cachePolicy = .NetworkElseCache
+        query.maxCacheAge = 24*3600
         query.orderByDescending("createdAt")
         query.findObjectsInBackgroundWithBlock { (objects, e) in
             
@@ -45,17 +47,21 @@ class tctgdata{
         query.whereKey("weixi", equalTo: openid)
         query.getFirstObjectInBackgroundWithBlock { (o, e) in
             if e != nil {
-                print("该微信号还未申请开通店铺")
-                DataResultFirst(nil)
-            }else
+                //101代表没有返回值,400代表没有网络
+                if e.code == 101 {
+                    DataResultFirst(nil)
+                }
+            }
+                
+            else
             {
                 
-            DataResultFirst(o)
+                DataResultFirst(o)
             }
+            
         }
-      
-        
     }
+
     
     
     

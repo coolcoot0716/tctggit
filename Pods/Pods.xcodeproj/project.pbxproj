@@ -7,180 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0233676FF1D45CD3F8FA4A6F82C59F2C /* WechatRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E349F85F2166D1C0C5629756CC4679 /* WechatRoute.swift */; };
-		04CB34E8DB22592949A14A3BC1313A1E /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E00211865211D9A614B0FFED18286D37 /* Info.plist */; };
-		07278ECAA2C348707C2474BC19537321 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0D691128F0C6B9C728C98C0D77C6A /* SystemConfiguration.framework */; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1350FD1D692547091A990A4D3541FE /* Error.swift */; };
-		0DBCE44D82A89088F62B65EB560F7554 /* WechatShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63501AB852C85ED997D300428F7133D /* WechatShare.swift */; };
-		10DBEC1CF31C8FDA418CBC5414593EED /* WechatAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265318D241B5F11546ACCAE4B0EB9DA /* WechatAuth.swift */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7CD5BAF65C2D46063D5E177FBDDFF /* Timeline.swift */; };
-		1696636C964FCDC05E5BF5271FD7FAD6 /* Pods-tctg_u3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DECF2FA4D28C2651FFA2599EDAA509F /* Pods-tctg_u3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2030DBA7E2057549F592C887885A1516 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E6FF36BDFEB919E0645E1AE20F4FCE /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87264FDDDB9CCFD717952A9AFBF8855D /* Validation.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E283B0753FCD67DED26B78F3B2B3F46 /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710EC62DEA3DEF6EF0E4B4A66BEA240 /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B31A6DBD2CC7AD72B25A01C5280708 /* Manager.swift */; };
-		455D8FE029309338161297AA51A045E5 /* WechatKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 530DCFC165C53EB9F035306C02438C74 /* WechatKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46953EF3C276730F1B280F1C9368EF49 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F143E075B6B5EE464F1EA18D253965 /* SwiftyJSON.swift */; };
-		479122395A22B3BA7522CCFC016BAAF8 /* WechatManagerShareDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237A3CC80B6F7EDBAA561A1087D3E98 /* WechatManagerShareDelegate.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAC8FC46DBEB53A97134B8A930ACCA6 /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DC420A464B575604EF69B4B9B8BB0 /* Download.swift */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687D2E67CB987A6CD9155C49F2CF3D2 /* Response.swift */; };
-		6EC11321E9563C8977F7A77AB5BE0566 /* WechatManagerAuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F525659ADE79424C79C07199AD74636 /* WechatManagerAuthDelegate.swift */; };
-		73A7C95C9C72F9B3C9A3CA6EF4415A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
-		798F0943C564E9CB088D49F639D370F8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92849F73BA6AF07F7A6E109472B6CE18 /* CoreTelephony.framework */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B73749521F3549372F87FBAD9E8148 /* ServerTrustPolicy.swift */; };
-		7E03ED8CE9064C3AD6628403AB648DC8 /* WechatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C267EF3379D03F56B3E55E45A99D3DB1 /* WechatManager.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC497494F0A2720B09D7582E509C65 /* Alamofire.swift */; };
+		05B824EEF07D0B61DB0039A84A6B98AF /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D2282E55899D5F49701B1C459FB599 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0614DBE312CFB7EF2931C9652F6E9728 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 439645AF988C3EA0F24CDFD5FFD1E7EA /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340535448DF45A84EF0CB907A3D74ED /* Error.swift */; };
+		0CF3CCABE20B07C015687A9E6DF41117 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 16551CB297EDED16F7394F3FA1789776 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121F7D384386596EC824B0573F6ECC0B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92849F73BA6AF07F7A6E109472B6CE18 /* CoreTelephony.framework */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40A153D90F6562C350B913411309A3 /* Timeline.swift */; };
+		179BA73DEF04FE5B002412BB98423FC3 /* WechatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F32C3BF38ADE1DF9ED66B6748C1A80 /* WechatManager.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F638EAC252FD57779AD213CF3E2A4284 /* Validation.swift */; };
+		3413CFABAF76C76ADF2C9303CF0966A1 /* WechatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A05E1D99A02EAF0031B85F61FD255C71 /* WechatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218DFC8F7AF782AF80EAEB6048B9B496 /* NetworkReachabilityManager.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F05292834FF2AD4558A10EF3D783A /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47456CCEF52EB9D837C8CCDBCA75AA9 /* Manager.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F3A3C85DB4F064655C3408D0AC5EE /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB0AB0440BD2723037BA9A8B1A0135 /* Download.swift */; };
+		60F19099F9E531454504C6FA3E2927C8 /* WechatKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B8582F117C755DDEED4D067EC125D /* WechatKit-dummy.m */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3560B7876EAB981D76D6A93E200F2 /* Response.swift */; };
+		657E4B07AC3D50402B93CC65FFF5B995 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72638459081AEAF9F3DEF067E924D01A /* SwiftyJSON.swift */; };
+		69B845630B65209E5F8FE977EFA124EF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F06CA2E46281C39ABF8AC532C03A69 /* Alamofire.framework */; };
+		6AE3FA7B910209E92D8780D151C5EF90 /* WechatManagerAuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C27A8B9E1F4D48ADA8DBFD6026E0F1 /* WechatManagerAuthDelegate.swift */; };
+		70484396E01770F60A7561CB9021E76B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0D691128F0C6B9C728C98C0D77C6A /* SystemConfiguration.framework */; };
+		72B4B8312EC1F4210C39C129F8BDDF51 /* WechatShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013884DF49D8E4A99F9FDD6562D25401 /* WechatShare.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B163619A65FC40DA5AC789A35251F /* ServerTrustPolicy.swift */; };
+		7EC94E4FD6952D734B2A6A56D16F41E5 /* WechatAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B794DBA6E2C66B732F5B201831A235 /* WechatAuth.swift */; };
+		84E59A00242FA79FE97F69936DA00F74 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC39638D1C780E89FC78055C7008878 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8568834A8975E8C75BD675E5E19F6C47 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9C99E06191F2C8F6A00A665FF266 /* Reachability.swift */; };
+		8DDAAB0923E0E31BD4D9104ADCB81CBF /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4966FA0EDF76EF5281341875BDB9ECDD /* Info.plist */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC60A12BCE5911F7E0DD8C7A1537FD0 /* Alamofire.swift */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0414CF36E7C01CDE83F92A82BE064983 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D52EB9B971F2B4D19C7E7BBE45764E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FC116D68D8921F197955339ACA301A /* Result.swift */; };
-		ADB1D6EE9774BA5878F54EC8B34DFF97 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB742B00ABB5A040ED64842A7CC6B933 /* Result.swift */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BAED47B6F81FA36948702C2056E67F /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF64EFE682DF9928C62524067AEA924 /* Stream.swift */; };
-		B675A96E36FF35A85073A3FD921AABFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7931821A829034BFA42C448C4294A /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68953C6A48632C8097D6032F7324EFDD /* ParameterEncoding.swift */; };
-		C18D101FD4AEB9D2ACFBB12C52683C69 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F06CA2E46281C39ABF8AC532C03A69 /* Alamofire.framework */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5C6FE3AB6053B5EDFCAC861614791 /* MultipartFormData.swift */; };
-		C838F8BB1176CD69173F1E4182D323E5 /* Pods-tctg_u3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F237DC1710A19B1E7A5F164FD719E763 /* Pods-tctg_u3-dummy.m */; };
-		CFB170C6234EFE158897BE3755687FA8 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAECED4A59F4512C321F47F2C1F4DF3F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D16560CDB395DDE8CD19D38BF1CF34A3 /* WechatKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC4F0352690643D673FA08BB167FB5 /* WechatKit-dummy.m */; };
-		E19BF35A6254443B350A6A7C446C650B /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC5BA6C15BEED2C10CEB9FF5F42B255 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7BF96D4BB5DB0E8DDFD21D897AF2632 /* WechatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFC08484D11FF1ACD7A2EC982B35CC4 /* WechatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF11E65A03B54063A4C14697455D04B1 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E592DD4D8F272870F3A999A08150EA8 /* SwiftyJSON-dummy.m */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9685D9E942A03171BED2C773E4A1EB /* Request.swift */; };
-		F958A4CB35259AB216FAAA5C8C190C2C /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F66B29ACF9F8B3EF6A7EDA9C9C5BDB5F /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94372FC1D24B69A65E9502748D2C538A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
+		94559B9F7859CA9EABA803D83E5FB528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9A9BDD701AB526D40432FBBDA7C5BB /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9941ADD596BB0FEFAF3662CC353139DD /* Pods-tctg_u3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DECF2FA4D28C2651FFA2599EDAA509F /* Pods-tctg_u3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E12A5924FD6D52389E7964A4C37DBE7 /* WechatRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CD8D0643E7FF0C0E151EAA010A37F /* WechatRoute.swift */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F2372A1C2921707CCD5279EC8C5E7 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D92376E823DAA2559174A6C0508BBB9 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB0475B229617023076E472E2863E /* Stream.swift */; };
+		BCEA00BEB8F642CD5A8ED6CC54C7B2FB /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D17BB8A11F566FFB8024B4C2AD5766 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545C857AF6A347FBD902A822BB86E9B /* Notifications.swift */; };
+		BFC940BD71794F6A4CEB6D8CE9969878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D104C5E72E17BE59FFDABE9B3754DEE /* ParameterEncoding.swift */; };
+		C6FE0F1AC9DCDE16EDA1B420737578D9 /* WechatKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F63E915E707AB5D6A179F05E708A94 /* WechatKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25FE57663495B4638C9742A6735DE63 /* MultipartFormData.swift */; };
+		D7022AD35EFA95657BCF34A72B9BE93C /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480A8E308F279137662CD44F5AA8D6E /* SwiftyJSON-dummy.m */; };
+		D7A7D7664242AB9E293B47A2BBA2D392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */; };
+		DF1B087B117A80BDD6A27CAE454F8E42 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0D691128F0C6B9C728C98C0D77C6A /* SystemConfiguration.framework */; };
+		E32557D48F82E31A5AC41AA3F226A6D8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268221387617792BDFDDF3A7B8F9D929 /* Result.swift */; };
+		E604C2C44488BC68D36928F27657BC0C /* Pods-tctg_u3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F237DC1710A19B1E7A5F164FD719E763 /* Pods-tctg_u3-dummy.m */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADACD06F8DD0568502B0420D7457A /* Request.swift */; };
+		F2A7C121C6783361C034AD1D64097BCB /* WechatManagerShareDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CD97CD874F3B8034F8382634035BD6 /* WechatManagerShareDelegate.swift */; };
+		FE6AF95CFB1F2021110A5036F62508C4 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D01995903496913B964E1BB3ACAAC6 /* ReachabilitySwift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00942363A7A4EFC378B69477EB85E0FA /* PBXContainerItemProxy */ = {
+		134BC72B5A8F42CA424AAB3A472EF364 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BF11E1FF60270B4E24D44017B7311F8;
+			remoteGlobalIDString = 4850AD31D36FDA48FA9844C605093079;
 			remoteInfo = SwiftyJSON;
 		};
-		128328C6623F5694585FF46CA76416F0 /* PBXContainerItemProxy */ = {
+		1B2505AFB7B6F093AA4A80A92FEF308F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
 			remoteInfo = Alamofire;
 		};
-		B22ECD00E4F9F4D4A5B1A1621F25AA82 /* PBXContainerItemProxy */ = {
+		3D05A24FC643F49AC5E7A48B9B2A6333 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED94F815A4A9444BD7A789B8EA4202B5;
+			remoteGlobalIDString = 041D89F257F198CB8234351C5B88D0C8;
 			remoteInfo = WechatKit;
 		};
-		FA4377AC93DF69365DA6AE9B7BF5BD3C /* PBXContainerItemProxy */ = {
+		3FE2125D0C2FB30D26E945380D4FDCDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
 			remoteInfo = Alamofire;
+		};
+		F64AAD89185451E5FD4237ABBA36450D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8366BA645D096614BF51FD196B6390F8;
+			remoteInfo = ReachabilitySwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0237A3CC80B6F7EDBAA561A1087D3E98 /* WechatManagerShareDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManagerShareDelegate.swift; path = WechatKit/WechatManagerShareDelegate.swift; sourceTree = "<group>"; };
-		0414CF36E7C01CDE83F92A82BE064983 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		0A9685D9E942A03171BED2C773E4A1EB /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		013884DF49D8E4A99F9FDD6562D25401 /* WechatShare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatShare.swift; path = WechatKit/WechatShare.swift; sourceTree = "<group>"; };
+		04CD1E4160FEC8C39B6EC38FF7FFB0A0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		0D1D550B5016A4A74A5FA0D25FBAF9D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D55D19561EB39D91965D4CB692FB5B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E283B0753FCD67DED26B78F3B2B3F46 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		12F32C3BF38ADE1DF9ED66B6748C1A80 /* WechatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManager.swift; path = WechatKit/WechatManager.swift; sourceTree = "<group>"; };
+		16551CB297EDED16F7394F3FA1789776 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDKExport/WXApiObject.h; sourceTree = "<group>"; };
+		189B7B818767629E0FA26A38DA62632B /* WechatKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatKit.xcconfig; sourceTree = "<group>"; };
+		1C41358B293A8E020C95E1F1979ADF70 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9E4963ED4C464762359825B1EF85C0 /* Pods-tctg_u3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tctg_u3-resources.sh"; sourceTree = "<group>"; };
-		21D0DEF992F14BC41E5226F66E39BEBE /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		25F143E075B6B5EE464F1EA18D253965 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		1FA49E94FB91C7398CAB34B32E5AFC47 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC87CF228A13577836A7E90E5157DD3 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		218DFC8F7AF782AF80EAEB6048B9B496 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		221B8582F117C755DDEED4D067EC125D /* WechatKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WechatKit-dummy.m"; sourceTree = "<group>"; };
+		268221387617792BDFDDF3A7B8F9D929 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = WechatKit/Result.swift; sourceTree = "<group>"; };
 		26F06CA2E46281C39ABF8AC532C03A69 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BAED47B6F81FA36948702C2056E67F /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		2CC34CFC998B2E05876A0486FF6BED57 /* WechatKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatKit.xcconfig; sourceTree = "<group>"; };
-		365B355CE833D623D85697FEFC0561A2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		3687D2E67CB987A6CD9155C49F2CF3D2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		380D365B3F272C179359C7569451ED64 /* WechatKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatKit-prefix.pch"; sourceTree = "<group>"; };
+		32F63E915E707AB5D6A179F05E708A94 /* WechatKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatKit-umbrella.h"; sourceTree = "<group>"; };
+		3480A8E308F279137662CD44F5AA8D6E /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		3DECF2FA4D28C2651FFA2599EDAA509F /* Pods-tctg_u3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tctg_u3-umbrella.h"; sourceTree = "<group>"; };
-		4094B4AC5A39FF5668A308FB8459F110 /* WechatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WechatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44B5C6FE3AB6053B5EDFCAC861614791 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		48FC116D68D8921F197955339ACA301A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		49513B55A8C28297773994370F4BE5D2 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		4E592DD4D8F272870F3A999A08150EA8 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		530DCFC165C53EB9F035306C02438C74 /* WechatKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatKit-umbrella.h"; sourceTree = "<group>"; };
+		439645AF988C3EA0F24CDFD5FFD1E7EA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDKExport/WechatAuthSDK.h; sourceTree = "<group>"; };
+		48507357698EB557434757A895E6F177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4966FA0EDF76EF5281341875BDB9ECDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = WechatKit/Info.plist; sourceTree = "<group>"; };
+		4F0F05292834FF2AD4558A10EF3D783A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4FDCE4B091C10833E24B7BFEFA27F9A8 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		516F2372A1C2921707CCD5279EC8C5E7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		52BB0AB0440BD2723037BA9A8B1A0135 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		5325CDBEF7274454484ECAAF0CD34422 /* Pods-tctg_u3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tctg_u3-frameworks.sh"; sourceTree = "<group>"; };
-		5361AE328FD970E791C1337214B9CE49 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CFC08484D11FF1ACD7A2EC982B35CC4 /* WechatKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatKit.h; path = WechatKit/WechatKit.h; sourceTree = "<group>"; };
-		68953C6A48632C8097D6032F7324EFDD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		7710EC62DEA3DEF6EF0E4B4A66BEA240 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		78E349F85F2166D1C0C5629756CC4679 /* WechatRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatRoute.swift; path = WechatKit/WechatRoute.swift; sourceTree = "<group>"; };
-		7BEC497494F0A2720B09D7582E509C65 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		7F525659ADE79424C79C07199AD74636 /* WechatManagerAuthDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManagerAuthDelegate.swift; path = WechatKit/WechatManagerAuthDelegate.swift; sourceTree = "<group>"; };
-		81B73749521F3549372F87FBAD9E8148 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		87264FDDDB9CCFD717952A9AFBF8855D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		8771987796F7C816104FA778DE23BDBF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		5545C857AF6A347FBD902A822BB86E9B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		572CD8D0643E7FF0C0E151EAA010A37F /* WechatRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatRoute.swift; path = WechatKit/WechatRoute.swift; sourceTree = "<group>"; };
+		58403BE8D38CBFA244DAFEBC108E3287 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		5A1B163619A65FC40DA5AC789A35251F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5C6F3A3C85DB4F064655C3408D0AC5EE /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		6A6EB0475B229617023076E472E2863E /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		72638459081AEAF9F3DEF067E924D01A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		73C27A8B9E1F4D48ADA8DBFD6026E0F1 /* WechatManagerAuthDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManagerAuthDelegate.swift; path = WechatKit/WechatManagerAuthDelegate.swift; sourceTree = "<group>"; };
+		74992640146E148C260ECD43BF5BF3EE /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDKExport/libWeChatSDK.a; sourceTree = "<group>"; };
+		76DB50FF9B0371989FA77C97782A4775 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		77D17BB8A11F566FFB8024B4C2AD5766 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		7970A49C03ED02C9300EA359EA270C3E /* WechatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WechatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9A9BDD701AB526D40432FBBDA7C5BB /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7BEBEFC92B66E00B9B185FE966291CB6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		7D104C5E72E17BE59FFDABE9B3754DEE /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		7DC60A12BCE5911F7E0DD8C7A1537FD0 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7F966F704D535E8E5C305ED52D5099E9 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		8AECE07D7B524ADD196EDC2E49491594 /* Pods-tctg_u3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tctg_u3-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B1350FD1D692547091A990A4D3541FE /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		8B1F9C99E06191F2C8F6A00A665FF266 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		8BD6F0697A84ADAAAD8D76CF47DD1369 /* WechatKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatKit-prefix.pch"; sourceTree = "<group>"; };
 		8FA5050FBD22D8B9CF9A3BAA3A6234A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		92583F6B4BF2C97787CB7E9E22BD6AAE /* Pods-tctg_u3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tctg_u3.modulemap"; sourceTree = "<group>"; };
 		92849F73BA6AF07F7A6E109472B6CE18 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98B31A6DBD2CC7AD72B25A01C5280708 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		ADF64EFE682DF9928C62524067AEA924 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		B0E6FF36BDFEB919E0645E1AE20F4FCE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDKExport/WXApi.h; sourceTree = "<group>"; };
-		B0F7931821A829034BFA42C448C4294A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		B265318D241B5F11546ACCAE4B0EB9DA /* WechatAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatAuth.swift; path = WechatKit/WechatAuth.swift; sourceTree = "<group>"; };
-		B6A51EDB9CBD32EE59FAA52730CA0DA0 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDKExport/libWeChatSDK.a; sourceTree = "<group>"; };
-		B862D145D38CF8179A51C9EE89C986F0 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		942ADACD06F8DD0568502B0420D7457A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		94437B0534D89B113E23A2AEE9A098B9 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		99D01995903496913B964E1BB3ACAAC6 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		9D92376E823DAA2559174A6C0508BBB9 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		A05E1D99A02EAF0031B85F61FD255C71 /* WechatKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatKit.h; path = WechatKit/WechatKit.h; sourceTree = "<group>"; };
+		A0BAA5C9780BBCEA4D428E61F89224BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C3560B7876EAB981D76D6A93E200F2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		B9E8D90D5AB20F0DC8FA423830F6727D /* Pods-tctg_u3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tctg_u3.debug.xcconfig"; sourceTree = "<group>"; };
-		BFC5BA6C15BEED2C10CEB9FF5F42B255 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDKExport/WXApiObject.h; sourceTree = "<group>"; };
-		C267EF3379D03F56B3E55E45A99D3DB1 /* WechatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManager.swift; path = WechatKit/WechatManager.swift; sourceTree = "<group>"; };
-		C4FBB387F409C0BD145950834041D944 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		C5AC4F0352690643D673FA08BB167FB5 /* WechatKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WechatKit-dummy.m"; sourceTree = "<group>"; };
-		C8F03CAC1BB515D668892DA776FC7445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCAC8FC46DBEB53A97134B8A930ACCA6 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		BD35B4A44038FA5E3249E7C63FDBC7DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF40A153D90F6562C350B913411309A3 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		CDE46058A0AEF3D57C5D8B4FCB21DE2A /* Pods-tctg_u3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tctg_u3-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D47456CCEF52EB9D837C8CCDBCA75AA9 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		D6E0D691128F0C6B9C728C98C0D77C6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		DAECED4A59F4512C321F47F2C1F4DF3F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		E00211865211D9A614B0FFED18286D37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = WechatKit/Info.plist; sourceTree = "<group>"; };
+		D7CD97CD874F3B8034F8382634035BD6 /* WechatManagerShareDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatManagerShareDelegate.swift; path = WechatKit/WechatManagerShareDelegate.swift; sourceTree = "<group>"; };
 		E12583E55E43AF3B73EDD9F1136DFEF8 /* Pods-tctg_u3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tctg_u3.release.xcconfig"; sourceTree = "<group>"; };
-		E1B95B4A0AEA2C6497DF75B0C0F4FEF3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E62DC420A464B575604EF69B4B9B8BB0 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		E63501AB852C85ED997D300428F7133D /* WechatShare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatShare.swift; path = WechatKit/WechatShare.swift; sourceTree = "<group>"; };
-		EB742B00ABB5A040ED64842A7CC6B933 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = WechatKit/Result.swift; sourceTree = "<group>"; };
+		E340535448DF45A84EF0CB907A3D74ED /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		E3D2282E55899D5F49701B1C459FB599 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		E8B794DBA6E2C66B732F5B201831A235 /* WechatAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatAuth.swift; path = WechatKit/WechatAuth.swift; sourceTree = "<group>"; };
+		EEC39638D1C780E89FC78055C7008878 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDKExport/WXApi.h; sourceTree = "<group>"; };
+		F065E21E3728735C158FC504210B6743 /* WechatKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WechatKit.modulemap; sourceTree = "<group>"; };
+		F0E7BD6ED9653F81E278612178803A50 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F237DC1710A19B1E7A5F164FD719E763 /* Pods-tctg_u3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tctg_u3-dummy.m"; sourceTree = "<group>"; };
-		F66B29ACF9F8B3EF6A7EDA9C9C5BDB5F /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDKExport/WechatAuthSDK.h; sourceTree = "<group>"; };
-		F7AD2BA33C43180579045E1372A5AAC0 /* Pods_tctg_u3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tctg_u3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9572C929609BB4108F6C66B8B2E269B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA079E70684DA27DE1C43B48CEF16F6A /* WechatKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WechatKit.modulemap; sourceTree = "<group>"; };
-		FFA7CD5BAF65C2D46063D5E177FBDDFF /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F25FE57663495B4638C9742A6735DE63 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		F26D766F90EAAAF5865FC43045DCDB07 /* Pods_tctg_u3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tctg_u3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A200A90C15849C4D3562D921BDD2CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F638EAC252FD57779AD213CF3E2A4284 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		FC5A59F11667B4DF881B0A3772EFBF5C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44D35F071DE48708611EE8A4FC1BC443 /* Frameworks */ = {
+		231868516850E251509797CFB85E3E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A7C95C9C72F9B3C9A3CA6EF4415A61 /* Foundation.framework in Frameworks */,
+				94559B9F7859CA9EABA803D83E5FB528 /* Foundation.framework in Frameworks */,
+				DF1B087B117A80BDD6A27CAE454F8E42 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DF2BCA46C0C42E7EBF5C0607D14C8D9 /* Frameworks */ = {
+		5FA1B146BD9AA0967F360A2D8C36727B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18D101FD4AEB9D2ACFBB12C52683C69 /* Alamofire.framework in Frameworks */,
-				798F0943C564E9CB088D49F639D370F8 /* CoreTelephony.framework in Frameworks */,
-				9D52EB9B971F2B4D19C7E7BBE45764E0 /* Foundation.framework in Frameworks */,
-				07278ECAA2C348707C2474BC19537321 /* SystemConfiguration.framework in Frameworks */,
+				69B845630B65209E5F8FE977EFA124EF /* Alamofire.framework in Frameworks */,
+				121F7D384386596EC824B0573F6ECC0B /* CoreTelephony.framework in Frameworks */,
+				BFC940BD71794F6A4CEB6D8CE9969878 /* Foundation.framework in Frameworks */,
+				70484396E01770F60A7561CB9021E76B /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB468ECB4C6784F831BAE0032AB9D8D5 /* Frameworks */ = {
+		6B4586F767B97A34817B37243C167B90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B675A96E36FF35A85073A3FD921AABFB /* Foundation.framework in Frameworks */,
+				94372FC1D24B69A65E9502748D2C538A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8C33AC3DEC30A0C135351D9A8F413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A7D7664242AB9E293B47A2BBA2D392 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,27 +224,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		006E1FCDBADFAD3FF5C746C292AC18BD /* SwiftyJSON */ = {
+		0C9DF3B8846F6A3D172073CD939E5964 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25F143E075B6B5EE464F1EA18D253965 /* SwiftyJSON.swift */,
-				13A042EF970138BD9EF21958D20EDD02 /* Support Files */,
+				74992640146E148C260ECD43BF5BF3EE /* libWeChatSDK.a */,
 			);
-			path = SwiftyJSON;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		13A042EF970138BD9EF21958D20EDD02 /* Support Files */ = {
+		0CB9D4B23688E1A3927E229ED15F9C10 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9572C929609BB4108F6C66B8B2E269B /* Info.plist */,
-				21D0DEF992F14BC41E5226F66E39BEBE /* SwiftyJSON.modulemap */,
-				C4FBB387F409C0BD145950834041D944 /* SwiftyJSON.xcconfig */,
-				4E592DD4D8F272870F3A999A08150EA8 /* SwiftyJSON-dummy.m */,
-				B862D145D38CF8179A51C9EE89C986F0 /* SwiftyJSON-prefix.pch */,
-				DAECED4A59F4512C321F47F2C1F4DF3F /* SwiftyJSON-umbrella.h */,
+				48507357698EB557434757A895E6F177 /* Info.plist */,
+				94437B0534D89B113E23A2AEE9A098B9 /* ReachabilitySwift.modulemap */,
+				58403BE8D38CBFA244DAFEBC108E3287 /* ReachabilitySwift.xcconfig */,
+				99D01995903496913B964E1BB3ACAAC6 /* ReachabilitySwift-dummy.m */,
+				4FDCE4B091C10833E24B7BFEFA27F9A8 /* ReachabilitySwift-prefix.pch */,
+				77D17BB8A11F566FFB8024B4C2AD5766 /* ReachabilitySwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		18EF0CE129ED2457F0FF78D21B20D02A /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F9C99E06191F2C8F6A00A665FF266 /* Reachability.swift */,
+				0CB9D4B23688E1A3927E229ED15F9C10 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		3371133C8C5D45D891A0A044825B15A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEBEFC92B66E00B9B185FE966291CB6 /* Alamofire.modulemap */,
+				7F966F704D535E8E5C305ED52D5099E9 /* Alamofire.xcconfig */,
+				9D92376E823DAA2559174A6C0508BBB9 /* Alamofire-dummy.m */,
+				FC5A59F11667B4DF881B0A3772EFBF5C /* Alamofire-prefix.pch */,
+				7B9A9BDD701AB526D40432FBBDA7C5BB /* Alamofire-umbrella.h */,
+				BD35B4A44038FA5E3249E7C63FDBC7DB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		37A1D89E232A74F83C26115FFB17F951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C41358B293A8E020C95E1F1979ADF70 /* Alamofire.framework */,
+				F26D766F90EAAAF5865FC43045DCDB07 /* Pods_tctg_u3.framework */,
+				1FA49E94FB91C7398CAB34B32E5AFC47 /* ReachabilitySwift.framework */,
+				F0E7BD6ED9653F81E278612178803A50 /* SwiftyJSON.framework */,
+				7970A49C03ED02C9300EA359EA270C3E /* WechatKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		38F58DC74390AA27322D60C17C091922 /* Pods-tctg_u3 */ = {
@@ -236,20 +299,6 @@
 			path = "Target Support Files/Pods-tctg_u3";
 			sourceTree = "<group>";
 		};
-		3B685F6DFA3B551D41711D1773FCA05E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8771987796F7C816104FA778DE23BDBF /* Alamofire.modulemap */,
-				49513B55A8C28297773994370F4BE5D2 /* Alamofire.xcconfig */,
-				27BAED47B6F81FA36948702C2056E67F /* Alamofire-dummy.m */,
-				365B355CE833D623D85697FEFC0561A2 /* Alamofire-prefix.pch */,
-				0414CF36E7C01CDE83F92A82BE064983 /* Alamofire-umbrella.h */,
-				0D55D19561EB39D91965D4CB692FB5B0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
 		44BF7F4BE0C01E8BDC51E217271552F0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,17 +309,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		594BCA5772D0EFF6FE0A75129A864C63 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1B95B4A0AEA2C6497DF75B0C0F4FEF3 /* Alamofire.framework */,
-				F7AD2BA33C43180579045E1372A5AAC0 /* Pods_tctg_u3.framework */,
-				5361AE328FD970E791C1337214B9CE49 /* SwiftyJSON.framework */,
-				4094B4AC5A39FF5668A308FB8459F110 /* WechatKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5CB046AC1BA9F80C7303597839911A9A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,83 +317,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		63AFF1D55E240CD66CA7B05B98CC2F8D /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				7BEC497494F0A2720B09D7582E509C65 /* Alamofire.swift */,
-				E62DC420A464B575604EF69B4B9B8BB0 /* Download.swift */,
-				8B1350FD1D692547091A990A4D3541FE /* Error.swift */,
-				98B31A6DBD2CC7AD72B25A01C5280708 /* Manager.swift */,
-				44B5C6FE3AB6053B5EDFCAC861614791 /* MultipartFormData.swift */,
-				1E283B0753FCD67DED26B78F3B2B3F46 /* NetworkReachabilityManager.swift */,
-				B0F7931821A829034BFA42C448C4294A /* Notifications.swift */,
-				68953C6A48632C8097D6032F7324EFDD /* ParameterEncoding.swift */,
-				0A9685D9E942A03171BED2C773E4A1EB /* Request.swift */,
-				3687D2E67CB987A6CD9155C49F2CF3D2 /* Response.swift */,
-				7710EC62DEA3DEF6EF0E4B4A66BEA240 /* ResponseSerialization.swift */,
-				48FC116D68D8921F197955339ACA301A /* Result.swift */,
-				81B73749521F3549372F87FBAD9E8148 /* ServerTrustPolicy.swift */,
-				ADF64EFE682DF9928C62524067AEA924 /* Stream.swift */,
-				FFA7CD5BAF65C2D46063D5E177FBDDFF /* Timeline.swift */,
-				CCAC8FC46DBEB53A97134B8A930ACCA6 /* Upload.swift */,
-				87264FDDDB9CCFD717952A9AFBF8855D /* Validation.swift */,
-				3B685F6DFA3B551D41711D1773FCA05E /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		67B4209F2B302A35F5C8CA23181E8306 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8F03CAC1BB515D668892DA776FC7445 /* Info.plist */,
-				FA079E70684DA27DE1C43B48CEF16F6A /* WechatKit.modulemap */,
-				2CC34CFC998B2E05876A0486FF6BED57 /* WechatKit.xcconfig */,
-				C5AC4F0352690643D673FA08BB167FB5 /* WechatKit-dummy.m */,
-				380D365B3F272C179359C7569451ED64 /* WechatKit-prefix.pch */,
-				530DCFC165C53EB9F035306C02438C74 /* WechatKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatKit";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				CAD3C16957C45B9334B34B3F761CF915 /* Frameworks */,
-				DEBF1738962E517C1AF0FD605930C771 /* Pods */,
-				594BCA5772D0EFF6FE0A75129A864C63 /* Products */,
+				D85DAD50FD52BFA8075D1982DF35DB97 /* Pods */,
+				37A1D89E232A74F83C26115FFB17F951 /* Products */,
 				5CB046AC1BA9F80C7303597839911A9A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8443563B6EBF6CD1A3C36972B84355A4 /* Frameworks */ = {
+		93B6E0BE9AF7810D3E52F5A20D466F10 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				B6A51EDB9CBD32EE59FAA52730CA0DA0 /* libWeChatSDK.a */,
+				72638459081AEAF9F3DEF067E924D01A /* SwiftyJSON.swift */,
+				96B6E24D1CD31E3EA2F315474BBEDF2C /* Support Files */,
 			);
-			name = Frameworks;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		AA0BB9288ED181270BB1EF756DDCF7FD /* WechatKit */ = {
+		96B6E24D1CD31E3EA2F315474BBEDF2C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E00211865211D9A614B0FFED18286D37 /* Info.plist */,
-				EB742B00ABB5A040ED64842A7CC6B933 /* Result.swift */,
-				B265318D241B5F11546ACCAE4B0EB9DA /* WechatAuth.swift */,
-				F66B29ACF9F8B3EF6A7EDA9C9C5BDB5F /* WechatAuthSDK.h */,
-				5CFC08484D11FF1ACD7A2EC982B35CC4 /* WechatKit.h */,
-				C267EF3379D03F56B3E55E45A99D3DB1 /* WechatManager.swift */,
-				7F525659ADE79424C79C07199AD74636 /* WechatManagerAuthDelegate.swift */,
-				0237A3CC80B6F7EDBAA561A1087D3E98 /* WechatManagerShareDelegate.swift */,
-				78E349F85F2166D1C0C5629756CC4679 /* WechatRoute.swift */,
-				E63501AB852C85ED997D300428F7133D /* WechatShare.swift */,
-				B0E6FF36BDFEB919E0645E1AE20F4FCE /* WXApi.h */,
-				BFC5BA6C15BEED2C10CEB9FF5F42B255 /* WXApiObject.h */,
-				8443563B6EBF6CD1A3C36972B84355A4 /* Frameworks */,
-				67B4209F2B302A35F5C8CA23181E8306 /* Support Files */,
+				A0BAA5C9780BBCEA4D428E61F89224BF /* Info.plist */,
+				1FC87CF228A13577836A7E90E5157DD3 /* SwiftyJSON.modulemap */,
+				04CD1E4160FEC8C39B6EC38FF7FFB0A0 /* SwiftyJSON.xcconfig */,
+				3480A8E308F279137662CD44F5AA8D6E /* SwiftyJSON-dummy.m */,
+				76DB50FF9B0371989FA77C97782A4775 /* SwiftyJSON-prefix.pch */,
+				E3D2282E55899D5F49701B1C459FB599 /* SwiftyJSON-umbrella.h */,
 			);
-			path = WechatKit;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B302E4B1DEE5DBAA246968CB9A7886DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A200A90C15849C4D3562D921BDD2CE /* Info.plist */,
+				F065E21E3728735C158FC504210B6743 /* WechatKit.modulemap */,
+				189B7B818767629E0FA26A38DA62632B /* WechatKit.xcconfig */,
+				221B8582F117C755DDEED4D067EC125D /* WechatKit-dummy.m */,
+				8BD6F0697A84ADAAAD8D76CF47DD1369 /* WechatKit-prefix.pch */,
+				32F63E915E707AB5D6A179F05E708A94 /* WechatKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatKit";
 			sourceTree = "<group>";
 		};
 		CAD3C16957C45B9334B34B3F761CF915 /* Frameworks */ = {
@@ -367,44 +374,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEBF1738962E517C1AF0FD605930C771 /* Pods */ = {
+		D85DAD50FD52BFA8075D1982DF35DB97 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63AFF1D55E240CD66CA7B05B98CC2F8D /* Alamofire */,
-				006E1FCDBADFAD3FF5C746C292AC18BD /* SwiftyJSON */,
-				AA0BB9288ED181270BB1EF756DDCF7FD /* WechatKit */,
+				F6CC7FDE58C078D7291B1E292C5F87E8 /* Alamofire */,
+				18EF0CE129ED2457F0FF78D21B20D02A /* ReachabilitySwift */,
+				93B6E0BE9AF7810D3E52F5A20D466F10 /* SwiftyJSON */,
+				EA9FC4385AF097EAF2272621285EEFCC /* WechatKit */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA9FC4385AF097EAF2272621285EEFCC /* WechatKit */ = {
+			isa = PBXGroup;
+			children = (
+				4966FA0EDF76EF5281341875BDB9ECDD /* Info.plist */,
+				268221387617792BDFDDF3A7B8F9D929 /* Result.swift */,
+				E8B794DBA6E2C66B732F5B201831A235 /* WechatAuth.swift */,
+				439645AF988C3EA0F24CDFD5FFD1E7EA /* WechatAuthSDK.h */,
+				A05E1D99A02EAF0031B85F61FD255C71 /* WechatKit.h */,
+				12F32C3BF38ADE1DF9ED66B6748C1A80 /* WechatManager.swift */,
+				73C27A8B9E1F4D48ADA8DBFD6026E0F1 /* WechatManagerAuthDelegate.swift */,
+				D7CD97CD874F3B8034F8382634035BD6 /* WechatManagerShareDelegate.swift */,
+				572CD8D0643E7FF0C0E151EAA010A37F /* WechatRoute.swift */,
+				013884DF49D8E4A99F9FDD6562D25401 /* WechatShare.swift */,
+				EEC39638D1C780E89FC78055C7008878 /* WXApi.h */,
+				16551CB297EDED16F7394F3FA1789776 /* WXApiObject.h */,
+				0C9DF3B8846F6A3D172073CD939E5964 /* Frameworks */,
+				B302E4B1DEE5DBAA246968CB9A7886DF /* Support Files */,
+			);
+			path = WechatKit;
+			sourceTree = "<group>";
+		};
+		F6CC7FDE58C078D7291B1E292C5F87E8 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				7DC60A12BCE5911F7E0DD8C7A1537FD0 /* Alamofire.swift */,
+				52BB0AB0440BD2723037BA9A8B1A0135 /* Download.swift */,
+				E340535448DF45A84EF0CB907A3D74ED /* Error.swift */,
+				D47456CCEF52EB9D837C8CCDBCA75AA9 /* Manager.swift */,
+				F25FE57663495B4638C9742A6735DE63 /* MultipartFormData.swift */,
+				218DFC8F7AF782AF80EAEB6048B9B496 /* NetworkReachabilityManager.swift */,
+				5545C857AF6A347FBD902A822BB86E9B /* Notifications.swift */,
+				7D104C5E72E17BE59FFDABE9B3754DEE /* ParameterEncoding.swift */,
+				942ADACD06F8DD0568502B0420D7457A /* Request.swift */,
+				A9C3560B7876EAB981D76D6A93E200F2 /* Response.swift */,
+				4F0F05292834FF2AD4558A10EF3D783A /* ResponseSerialization.swift */,
+				516F2372A1C2921707CCD5279EC8C5E7 /* Result.swift */,
+				5A1B163619A65FC40DA5AC789A35251F /* ServerTrustPolicy.swift */,
+				6A6EB0475B229617023076E472E2863E /* Stream.swift */,
+				BF40A153D90F6562C350B913411309A3 /* Timeline.swift */,
+				5C6F3A3C85DB4F064655C3408D0AC5EE /* Upload.swift */,
+				F638EAC252FD57779AD213CF3E2A4284 /* Validation.swift */,
+				3371133C8C5D45D891A0A044825B15A2 /* Support Files */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A02600E83D825137C3754069D2ED7E0B /* Headers */ = {
+		5BB9FACE4E7FCD26E43DF70507CDC488 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1696636C964FCDC05E5BF5271FD7FAD6 /* Pods-tctg_u3-umbrella.h in Headers */,
+				05B824EEF07D0B61DB0039A84A6B98AF /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F26AA5DC101133091B463C5BC8131B /* Headers */ = {
+		8A1B1D343B6E7172DAD24F4BE3FC4A82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F958A4CB35259AB216FAAA5C8C190C2C /* WechatAuthSDK.h in Headers */,
-				455D8FE029309338161297AA51A045E5 /* WechatKit-umbrella.h in Headers */,
-				E7BF96D4BB5DB0E8DDFD21D897AF2632 /* WechatKit.h in Headers */,
-				2030DBA7E2057549F592C887885A1516 /* WXApi.h in Headers */,
-				E19BF35A6254443B350A6A7C446C650B /* WXApiObject.h in Headers */,
+				BCEA00BEB8F642CD5A8ED6CC54C7B2FB /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E58B24E1C35AA5A64F7427D7231F1AA9 /* Headers */ = {
+		E206BE97755F8355602C5E595838D8AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB170C6234EFE158897BE3755687FA8 /* SwiftyJSON-umbrella.h in Headers */,
+				0614DBE312CFB7EF2931C9652F6E9728 /* WechatAuthSDK.h in Headers */,
+				C6FE0F1AC9DCDE16EDA1B420737578D9 /* WechatKit-umbrella.h in Headers */,
+				3413CFABAF76C76ADF2C9303CF0966A1 /* WechatKit.h in Headers */,
+				84E59A00242FA79FE97F69936DA00F74 /* WXApi.h in Headers */,
+				0CF3CCABE20B07C015687A9E6DF41117 /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +470,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEB63D4634149D63434FF47EC61E5FF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9941ADD596BB0FEFAF3662CC353139DD /* Pods-tctg_u3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		041D89F257F198CB8234351C5B88D0C8 /* WechatKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B800B663807C9439DEE114AB28123B30 /* Build configuration list for PBXNativeTarget "WechatKit" */;
+			buildPhases = (
+				CF853524ACD8409E42D0D71F2CD6F5F2 /* Sources */,
+				5FA1B146BD9AA0967F360A2D8C36727B /* Frameworks */,
+				E206BE97755F8355602C5E595838D8AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57787DD12BE5F02545B0E7C82C8B40D5 /* PBXTargetDependency */,
+			);
+			name = WechatKit;
+			productName = WechatKit;
+			productReference = 7970A49C03ED02C9300EA359EA270C3E /* WechatKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4850AD31D36FDA48FA9844C605093079 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F914DEF0CB47F871E278B89FD41D26 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				0D3B83B0C9DE9FD8A1EA7407B7F2F189 /* Sources */,
+				6B4586F767B97A34817B37243C167B90 /* Frameworks */,
+				5BB9FACE4E7FCD26E43DF70507CDC488 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F0E7BD6ED9653F81E278612178803A50 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -433,62 +530,45 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = E1B95B4A0AEA2C6497DF75B0C0F4FEF3 /* Alamofire.framework */;
+			productReference = 1C41358B293A8E020C95E1F1979ADF70 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8BF11E1FF60270B4E24D44017B7311F8 /* SwiftyJSON */ = {
+		8366BA645D096614BF51FD196B6390F8 /* ReachabilitySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEAEAAAB24A3D001B4B4C49D9974211F /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 9D1F11E75E84DE0800749832A5339F81 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
-				618B8163496DF53A32B4B0F2C8E4DD86 /* Sources */,
-				AB468ECB4C6784F831BAE0032AB9D8D5 /* Frameworks */,
-				E58B24E1C35AA5A64F7427D7231F1AA9 /* Headers */,
+				A5AADA127CAA3F27AA09ED58C292E053 /* Sources */,
+				231868516850E251509797CFB85E3E60 /* Frameworks */,
+				8A1B1D343B6E7172DAD24F4BE3FC4A82 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = 5361AE328FD970E791C1337214B9CE49 /* SwiftyJSON.framework */;
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 1FA49E94FB91C7398CAB34B32E5AFC47 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BAB6FCD2337E178ABD371C7F760DB8BB /* Pods-tctg_u3 */ = {
+		994FDFC030B7E7BB4CFEB7A5AA8A732F /* Pods-tctg_u3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90CD669E500DC5D28BAC37FBDBA65629 /* Build configuration list for PBXNativeTarget "Pods-tctg_u3" */;
+			buildConfigurationList = 07E3A3ADF87659A417395471556856C5 /* Build configuration list for PBXNativeTarget "Pods-tctg_u3" */;
 			buildPhases = (
-				5F7166BD1519B909CD09A454FD2B6D4C /* Sources */,
-				44D35F071DE48708611EE8A4FC1BC443 /* Frameworks */,
-				A02600E83D825137C3754069D2ED7E0B /* Headers */,
+				B225F12B84DAECC1CBA220ECED4BA3C0 /* Sources */,
+				8C8C33AC3DEC30A0C135351D9A8F413E /* Frameworks */,
+				FEB63D4634149D63434FF47EC61E5FF5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D49120905D3519B68F3D0636CC31EFCB /* PBXTargetDependency */,
-				2EFFC5525259CFFDFE389D709B55BFA7 /* PBXTargetDependency */,
-				4D0A17B4E5CFDB6317A4929B098D53D2 /* PBXTargetDependency */,
+				48D334DE112A5BC28A85B3510AA02CCE /* PBXTargetDependency */,
+				9D0D46641F5ADA91CFE72DB83B7F26FB /* PBXTargetDependency */,
+				EAD38D996BB91DF14C9653997C1E419A /* PBXTargetDependency */,
+				4A8DC53C873ACE654869D1E067F11788 /* PBXTargetDependency */,
 			);
 			name = "Pods-tctg_u3";
 			productName = "Pods-tctg_u3";
-			productReference = F7AD2BA33C43180579045E1372A5AAC0 /* Pods_tctg_u3.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED94F815A4A9444BD7A789B8EA4202B5 /* WechatKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C09478B8C36DED6B6CF4F505C89E2560 /* Build configuration list for PBXNativeTarget "WechatKit" */;
-			buildPhases = (
-				B98C84DF79C500CD25413FC5BCB4A67A /* Sources */,
-				6DF2BCA46C0C42E7EBF5C0607D14C8D9 /* Frameworks */,
-				B5F26AA5DC101133091B463C5BC8131B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD2A65E81CC23D9231B11A54E59A93AA /* PBXTargetDependency */,
-			);
-			name = WechatKit;
-			productName = WechatKit;
-			productReference = 4094B4AC5A39FF5668A308FB8459F110 /* WechatKit.framework */;
+			productReference = F26D766F90EAAAF5865FC43045DCDB07 /* Pods_tctg_u3.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -508,33 +588,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 594BCA5772D0EFF6FE0A75129A864C63 /* Products */;
+			productRefGroup = 37A1D89E232A74F83C26115FFB17F951 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				BAB6FCD2337E178ABD371C7F760DB8BB /* Pods-tctg_u3 */,
-				8BF11E1FF60270B4E24D44017B7311F8 /* SwiftyJSON */,
-				ED94F815A4A9444BD7A789B8EA4202B5 /* WechatKit */,
+				994FDFC030B7E7BB4CFEB7A5AA8A732F /* Pods-tctg_u3 */,
+				8366BA645D096614BF51FD196B6390F8 /* ReachabilitySwift */,
+				4850AD31D36FDA48FA9844C605093079 /* SwiftyJSON */,
+				041D89F257F198CB8234351C5B88D0C8 /* WechatKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F7166BD1519B909CD09A454FD2B6D4C /* Sources */ = {
+		0D3B83B0C9DE9FD8A1EA7407B7F2F189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C838F8BB1176CD69173F1E4182D323E5 /* Pods-tctg_u3-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		618B8163496DF53A32B4B0F2C8E4DD86 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF11E65A03B54063A4C14697455D04B1 /* SwiftyJSON-dummy.m in Sources */,
-				46953EF3C276730F1B280F1C9368EF49 /* SwiftyJSON.swift in Sources */,
+				D7022AD35EFA95657BCF34A72B9BE93C /* SwiftyJSON-dummy.m in Sources */,
+				657E4B07AC3D50402B93CC65FFF5B995 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,55 +636,140 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B98C84DF79C500CD25413FC5BCB4A67A /* Sources */ = {
+		A5AADA127CAA3F27AA09ED58C292E053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CB34E8DB22592949A14A3BC1313A1E /* Info.plist in Sources */,
-				ADB1D6EE9774BA5878F54EC8B34DFF97 /* Result.swift in Sources */,
-				10DBEC1CF31C8FDA418CBC5414593EED /* WechatAuth.swift in Sources */,
-				D16560CDB395DDE8CD19D38BF1CF34A3 /* WechatKit-dummy.m in Sources */,
-				7E03ED8CE9064C3AD6628403AB648DC8 /* WechatManager.swift in Sources */,
-				6EC11321E9563C8977F7A77AB5BE0566 /* WechatManagerAuthDelegate.swift in Sources */,
-				479122395A22B3BA7522CCFC016BAAF8 /* WechatManagerShareDelegate.swift in Sources */,
-				0233676FF1D45CD3F8FA4A6F82C59F2C /* WechatRoute.swift in Sources */,
-				0DBCE44D82A89088F62B65EB560F7554 /* WechatShare.swift in Sources */,
+				8568834A8975E8C75BD675E5E19F6C47 /* Reachability.swift in Sources */,
+				FE6AF95CFB1F2021110A5036F62508C4 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225F12B84DAECC1CBA220ECED4BA3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E604C2C44488BC68D36928F27657BC0C /* Pods-tctg_u3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF853524ACD8409E42D0D71F2CD6F5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAAB0923E0E31BD4D9104ADCB81CBF /* Info.plist in Sources */,
+				E32557D48F82E31A5AC41AA3F226A6D8 /* Result.swift in Sources */,
+				7EC94E4FD6952D734B2A6A56D16F41E5 /* WechatAuth.swift in Sources */,
+				60F19099F9E531454504C6FA3E2927C8 /* WechatKit-dummy.m in Sources */,
+				179BA73DEF04FE5B002412BB98423FC3 /* WechatManager.swift in Sources */,
+				6AE3FA7B910209E92D8780D151C5EF90 /* WechatManagerAuthDelegate.swift in Sources */,
+				F2A7C121C6783361C034AD1D64097BCB /* WechatManagerShareDelegate.swift in Sources */,
+				9E12A5924FD6D52389E7964A4C37DBE7 /* WechatRoute.swift in Sources */,
+				72B4B8312EC1F4210C39C129F8BDDF51 /* WechatShare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EFFC5525259CFFDFE389D709B55BFA7 /* PBXTargetDependency */ = {
+		48D334DE112A5BC28A85B3510AA02CCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = 8BF11E1FF60270B4E24D44017B7311F8 /* SwiftyJSON */;
-			targetProxy = 00942363A7A4EFC378B69477EB85E0FA /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 1B2505AFB7B6F093AA4A80A92FEF308F /* PBXContainerItemProxy */;
 		};
-		4D0A17B4E5CFDB6317A4929B098D53D2 /* PBXTargetDependency */ = {
+		4A8DC53C873ACE654869D1E067F11788 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WechatKit;
-			target = ED94F815A4A9444BD7A789B8EA4202B5 /* WechatKit */;
-			targetProxy = B22ECD00E4F9F4D4A5B1A1621F25AA82 /* PBXContainerItemProxy */;
+			target = 041D89F257F198CB8234351C5B88D0C8 /* WechatKit */;
+			targetProxy = 3D05A24FC643F49AC5E7A48B9B2A6333 /* PBXContainerItemProxy */;
 		};
-		D49120905D3519B68F3D0636CC31EFCB /* PBXTargetDependency */ = {
+		57787DD12BE5F02545B0E7C82C8B40D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = 128328C6623F5694585FF46CA76416F0 /* PBXContainerItemProxy */;
+			targetProxy = 3FE2125D0C2FB30D26E945380D4FDCDD /* PBXContainerItemProxy */;
 		};
-		DD2A65E81CC23D9231B11A54E59A93AA /* PBXTargetDependency */ = {
+		9D0D46641F5ADA91CFE72DB83B7F26FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = FA4377AC93DF69365DA6AE9B7BF5BD3C /* PBXContainerItemProxy */;
+			name = ReachabilitySwift;
+			target = 8366BA645D096614BF51FD196B6390F8 /* ReachabilitySwift */;
+			targetProxy = F64AAD89185451E5FD4237ABBA36450D /* PBXContainerItemProxy */;
+		};
+		EAD38D996BB91DF14C9653997C1E419A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 4850AD31D36FDA48FA9844C605093079 /* SwiftyJSON */;
+			targetProxy = 134BC72B5A8F42CA424AAB3A472EF364 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BCF9F9DE87633D8FC9D0BFAB08959FE /* Debug */ = {
+		09D649CDA7F01D0C32D0EB51507A6AD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4FBB387F409C0BD145950834041D944 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 58403BE8D38CBFA244DAFEBC108E3287 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EA1C624F7E649F256290188D55AEBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12583E55E43AF3B73EDD9F1136DFEF8 /* Pods-tctg_u3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tctg_u3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tctg_u3/Pods-tctg_u3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tctg_u3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18CECFDDF9C168BB1EC2D33F358D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E8D90D5AB20F0DC8FA423830F6727D /* Pods-tctg_u3.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -622,14 +780,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-tctg_u3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tctg_u3/Pods-tctg_u3.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tctg_u3;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -641,7 +803,7 @@
 		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49513B55A8C28297773994370F4BE5D2 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 7F966F704D535E8E5C305ED52D5099E9 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -668,9 +830,9 @@
 			};
 			name = Release;
 		};
-		3D5F1F09D547CF0D88F71D8C1840AD44 /* Release */ = {
+		360CD769CCBA990CD169600B558FE42F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12583E55E43AF3B73EDD9F1136DFEF8 /* Pods-tctg_u3.release.xcconfig */;
+			baseConfigurationReference = 04CD1E4160FEC8C39B6EC38FF7FFB0A0 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -681,18 +843,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tctg_u3/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tctg_u3/Pods-tctg_u3.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tctg_u3;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -743,43 +901,38 @@
 			};
 			name = Debug;
 		};
-		66B4B12FE1DA88E8349A76353C569F0A /* Debug */ = {
+		49D66FA10EB536F2A095F3008DA3A0EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E8D90D5AB20F0DC8FA423830F6727D /* Pods-tctg_u3.debug.xcconfig */;
+			baseConfigurationReference = 189B7B818767629E0FA26A38DA62632B /* WechatKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tctg_u3/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WechatKit/WechatKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WechatKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tctg_u3/Pods-tctg_u3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tctg_u3;
+				MODULEMAP_FILE = "Target Support Files/WechatKit/WechatKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WechatKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49513B55A8C28297773994370F4BE5D2 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 7F966F704D535E8E5C305ED52D5099E9 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -807,38 +960,9 @@
 			};
 			name = Debug;
 		};
-		8A9CE431D0C027F2851FE15B50B6B871 /* Release */ = {
+		7913A29BDA8902E32F1838D58C0454ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC34CFC998B2E05876A0486FF6BED57 /* WechatKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WechatKit/WechatKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WechatKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WechatKit/WechatKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WechatKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A99C7AA294A923C9F733BB28792322A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC34CFC998B2E05876A0486FF6BED57 /* WechatKit.xcconfig */;
+			baseConfigurationReference = 189B7B818767629E0FA26A38DA62632B /* WechatKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -857,6 +981,36 @@
 				MODULEMAP_FILE = "Target Support Files/WechatKit/WechatKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = WechatKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		852A3AC1FF6E78E27EA74AC4E0523D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CD1E4160FEC8C39B6EC38FF7FFB0A0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -904,38 +1058,57 @@
 			};
 			name = Release;
 		};
-		C13777B4C0430F6B5A7A7F7DC12F7FCF /* Release */ = {
+		F5681C235B86CED1C95F77E07A5FEFD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4FBB387F409C0BD145950834041D944 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 58403BE8D38CBFA244DAFEBC108E3287 /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05F914DEF0CB47F871E278B89FD41D26 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A3AC1FF6E78E27EA74AC4E0523D9F /* Debug */,
+				360CD769CCBA990CD169600B558FE42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E3A3ADF87659A417395471556856C5 /* Build configuration list for PBXNativeTarget "Pods-tctg_u3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CECFDDF9C168BB1EC2D33F358D9F75 /* Debug */,
+				0EA1C624F7E649F256290188D55AEBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -954,29 +1127,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90CD669E500DC5D28BAC37FBDBA65629 /* Build configuration list for PBXNativeTarget "Pods-tctg_u3" */ = {
+		9D1F11E75E84DE0800749832A5339F81 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66B4B12FE1DA88E8349A76353C569F0A /* Debug */,
-				3D5F1F09D547CF0D88F71D8C1840AD44 /* Release */,
+				F5681C235B86CED1C95F77E07A5FEFD7 /* Debug */,
+				09D649CDA7F01D0C32D0EB51507A6AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C09478B8C36DED6B6CF4F505C89E2560 /* Build configuration list for PBXNativeTarget "WechatKit" */ = {
+		B800B663807C9439DEE114AB28123B30 /* Build configuration list for PBXNativeTarget "WechatKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99C7AA294A923C9F733BB28792322A9 /* Debug */,
-				8A9CE431D0C027F2851FE15B50B6B871 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEAEAAAB24A3D001B4B4C49D9974211F /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BCF9F9DE87633D8FC9D0BFAB08959FE /* Debug */,
-				C13777B4C0430F6B5A7A7F7DC12F7FCF /* Release */,
+				7913A29BDA8902E32F1838D58C0454ED /* Debug */,
+				49D66FA10EB536F2A095F3008DA3A0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

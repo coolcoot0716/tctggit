@@ -19,9 +19,11 @@ class myTableViewController: UITableViewController {
    
     @IBOutlet weak var dshsp: UILabel!
     @IBOutlet weak var spfb: UILabel!
+   //我的店铺
     @IBOutlet weak var c1: UITableViewCell!
-    
+    //待审核商品
     @IBOutlet weak var c3: UITableViewCell!
+    //商品发布
     @IBOutlet weak var c2: UITableViewCell!
     @IBOutlet weak var wxpic: UIImageView!
     @IBOutlet weak var wxinfo: UILabel!
@@ -181,6 +183,7 @@ class myTableViewController: UITableViewController {
             case 2:
                 let fbsp = self.storyboard!.instantiateViewControllerWithIdentifier("fbsp")
                 
+              
                 self.navigationController?.pushViewController(fbsp, animated: true)
             case 3:
                 print("0,3")

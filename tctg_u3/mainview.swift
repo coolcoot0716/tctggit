@@ -89,10 +89,13 @@ class mainview: UIViewController,UIScrollViewDelegate,UICollectionViewDataSource
         self.automaticallyAdjustsScrollViewInsets = false
         
         //加载数据时显示进度条
+        
         activityIndicator = UIActivityIndicatorView(activityIndicatorStyle:
-            UIActivityIndicatorViewStyle.White)
-        activityIndicator.center=self.view.center
-        self.view.addSubview(activityIndicator);
+            UIActivityIndicatorViewStyle.WhiteLarge)
+       
+        
+         activityIndicator.center=self.view.center
+               self.view.addSubview(activityIndicator);
         activityIndicator.startAnimating()
 
         //读取数据

@@ -65,19 +65,6 @@ UINavigationControllerDelegate,UITextFieldDelegate,UITextViewDelegate{
         record["sjname"] = s4
        record["weixi"] = WechatManager.openid
         
-        
-//        WechatManager.sharedInstance.getUserInfo { result in
-//            switch result {
-//            case .Failure(let errCode):
-//                print(errCode)
-//            case .Success(let value):
-//                //将微信个人信息显示在界面
-//                let json=JSON(value)
-//              
-//                record["weixi"] = json["openid"].stringValue
-//        
-//            }
-//        }
 
         //图像
         
@@ -94,6 +81,7 @@ UINavigationControllerDelegate,UITextFieldDelegate,UITextViewDelegate{
             }
             else{
             print("保存成功")
+                self.navigationController!.popViewControllerAnimated(true);
             }
         }
         

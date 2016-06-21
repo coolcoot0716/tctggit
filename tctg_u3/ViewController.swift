@@ -9,7 +9,7 @@
 import UIKit
 import WechatKit
 import SwiftyJSON
-
+import ReachabilitySwift
 class ViewController: UIViewController {
     
     @IBOutlet weak var wx: UIButton!
@@ -20,8 +20,41 @@ class ViewController: UIViewController {
     // var scrollView=UIScrollView()
     // var pagerconter=UIPageControl()
     
+    override func viewDidAppear(animated: Bool) {
+        //判断网络连接状态
+        let reachability: Reachability
+        do {
+            reachability = try Reachability.reachabilityForInternetConnection()
+        } catch {
+            print("Unable to create Reachability")
+            return
+        }
+        //判断连接状态
+        if reachability.isReachable(){
+            print("网络连接：可用")
+        }else{
+            
+            let alertController2 = UIAlertController(title: "提示", message: "无可用的网络连接,请检查网络设置!", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
+            
+            let okAction = UIAlertAction(title: "好的", style: UIAlertActionStyle.Default, handler: nil)
+            alertController2.addAction(okAction)
+            
+            
+            self.presentViewController(alertController2, animated: true, completion: nil)
+            
+          
+            return
+            
+            
+        }
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.setupWechatManager()
         
         wx.layer.borderColor = UIColor.whiteColor().CGColor
